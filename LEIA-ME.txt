@@ -1,0 +1,21 @@
+Leia-me
+
+Este é um baixador de sites feito em Python utilizando a biblioteca Tkinter para criar uma interface gráfica de usuário.
+
+Como usar
+
+Abra o arquivo "baixador_de_sites.py" em um editor de texto ou IDE.
+Execute o arquivo com Python (por exemplo, python baixador_de_sites.py).
+Uma janela de interface gráfica de usuário será aberta.
+Insira a URL do site que você deseja baixar no campo "URL do Site".
+Selecione a pasta de destino para salvar os arquivos baixados clicando no botão "Selecionar Pasta".
+Clique no botão "Baixar Site" para iniciar o download do site.
+Configuração
+
+O baixador de sites utiliza a biblioteca requests para fazer requisições HTTP e a biblioteca BeautifulSoup para parsear o conteúdo HTML dos sites.
+O baixador de sites salva os arquivos baixados em uma pasta com o nome da URL do site.
+Os logs de erros são salvos em um arquivo chamado "site_downloader.log".
+Limitações
+
+O baixador de sites não suporta fins de linha diferentes do padrão Unix (LF).
+O baixador de sites não suporta caracteres especiais em nomes de arquivos.
